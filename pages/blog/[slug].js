@@ -24,8 +24,12 @@ export async function getStaticProps({ params }) {
 }
 
 export default function Post({ slug, title, date, html }) {
+  useEffect(() => {
+    // Initialize highlight.js
+    hljs.highlightAll()
+  }, []);
   return (
-    <Base title={title}>
+    <Base title={title} blog={true}>
       <article>
         <header>
           <Head>

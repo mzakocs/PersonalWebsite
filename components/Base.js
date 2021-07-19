@@ -6,7 +6,7 @@ import { initGA, logPageView } from "../util/analytics";
 
 // Base layout used on every page. Includes the naviagation bar on the top and
 // a footer at the bottom, aliong with a dark background surrounding the children
-const Base = ({ children, title }) => {
+const Base = ({ children, title, blog }) => {
   useEffect(() => {
     // Loads Google Analytics
     if (!window.GA_INITIALIZED) {
@@ -60,7 +60,7 @@ const Base = ({ children, title }) => {
         <script src="/js/spline.runtime.min.js"></script>
       </Head>
       <Navigation />
-      <main className="container">{children}</main>
+      <main className={blog ? "blogContainer" : "container"}>{children}</main>
       <Footer />
     </>
   );
