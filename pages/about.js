@@ -31,11 +31,11 @@ const About = () => {
                 I'm also familiar with Julia, C#, and Lua; I've worked directly with these languages before but I'm not a wizard with them.
                 <br /><br />
                 With real languages, I'm fluent in both English and Spanish (certified by the state of Arizona).
-                I've also recently been learning Arabic in my free time. I'd love to learn Mandarin, German, Dutch, Russian, or Portuguese sometime in the foreseeable future.
+                I've also study Arabic in my free time. I'd love to learn Mandarin, German, Dutch, Russian, or Portuguese sometime in the foreseeable future.
                 <br /><br />
                 Apart from Computer Science, my other interests include cooking, graphic design, learning languages, writing, golfing, crafting/playing guitars, fixing/riding bicycles, tinkering with electronics, and making custom keyboards.
                 <br /><br />
-                Other than that, I hope you enjoy my website. Feel free to take a look at the information below (or maybe one of my <a href="/blog">blog posts</a>).
+                I hope you enjoy my website. Feel free to take a look at the other sections below (or maybe one of my <a href="/blog">blog posts</a>).
                 <h2>Disciplines</h2>
                 <h3>Software Engineering</h3>
                 <ul>
