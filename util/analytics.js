@@ -4,7 +4,7 @@ import ReactGA from "react-ga";
 
 // Initializes Google Analytics object
 export const initGA = () => {
-  ReactGA.initialize("G-RRYERRS84N");
+  ReactGA.initialize("UA-48700312-3");
 };
 
 // Logs a page view to whichever page the React app is currently routed to.
