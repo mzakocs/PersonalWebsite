@@ -31,7 +31,7 @@ const About = () => {
                 I'm also familiar with Julia, C#, and Lua; I've worked directly with these languages before but I'm not a wizard with them.
                 <br /><br />
                 With real languages, I'm fluent in both English and Spanish (certified by the state of Arizona).
-                I also study Arabic in my free time. I would also enjoy studying Mandarin, German, Dutch, Russian, or Portuguese sometime in the foreseeable future.
+                I'm also studying Arabic in my spare time and I'd like to start learning Mandarin, German, Dutch, Russian, or Portuguese sometime in the foreseeable future.
                 <br /><br />
                 Apart from Computer Science, my other interests include cooking, graphic design, learning languages, writing, golfing, crafting/playing guitars, fixing/riding bicycles, tinkering with electronics, and making custom keyboards.
                 <br /><br />
