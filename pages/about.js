@@ -21,7 +21,7 @@ const About = () => {
                 }
             `}</style>
             <p>
-                <h2>Summary</h2>
+                <h2 id="summary">Summary</h2>
                 Hello! I'm an undergrad Computer Science student at Arizona State University interested in Software Engineering and Software Security.
                 <br /><br />
                 I have over {getYearsSince(2017)} years of personal programming experience, {getYearsSince(2019)} years of professional programming experience, and a handful of nice projects that I love working on.
@@ -52,7 +52,7 @@ const About = () => {
                         Managing databases with PostgreSQL, MongoDB, REST API's, Apollo, and GraphQL
                     </li>
                     <li>
-                        Programming firmware for microcontrollers in C and MicroPython
+                        Programming firmware for micro-controllers in C and MicroPython
                     </li>
                     <li>
                         Maintaining large projects with Git, GitHub, Vercel, and the Google Cloud Platform
@@ -84,7 +84,7 @@ const About = () => {
                 </ul>
                 {/* <h2>Projects</h2>
                 Check out my projects on GitHub by clicking the icon in the footer or the link <a href="https://github.com/mzakocs">here</a>. */}
-                <h2>Résumé</h2>
+                <h2 id="resume">Résumé</h2>
                 Below, you can find the latest copy of my résumé. You can also <a href="/resume.pdf" download="Resume Mitchell Zakocs.pdf">download it</a>.
                 <br /> <br />
                 <div className="pdfContainer">
@@ -96,7 +96,7 @@ const About = () => {
                         />
                     </Document>
                 </div>
-                <h2>Contact</h2>
+                <h2 id="contact">Contact</h2>
                 Email: <a href="mailto:mzakocs@gmail.com">mzakocs@gmail.com</a>
                 <br />
                 Discord: mzakocs#0696
