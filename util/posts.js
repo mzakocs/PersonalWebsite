@@ -8,7 +8,8 @@ export async function getPosts() {
   const postsDirectory = resolve(process.cwd(), "_posts");
   const postFiles = await readdir(postsDirectory);
 
-  const posts = await Promise.all(
+  // Grab posts and parse markdown & slug
+  let posts = await Promise.all(
     postFiles.map(async (fileName) => {
       const fullPath = join(postsDirectory, fileName);
       const markdown = await readFile(fullPath, "utf8");
@@ -41,5 +42,8 @@ export async function getPosts() {
     })
   );
 
+  // Sort posts by date
+  posts = posts.sort((a, b) => (new Date(a.date).getTime() > new Date(b.date).getTime()))
+  
   return posts;
 }
