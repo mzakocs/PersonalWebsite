@@ -9,19 +9,14 @@ import { getPosts } from '../../util/posts';
 // blog utility code and style inspiration (https://github.com/Timer/blog)
 
 export async function getStaticProps() {
-    const sortedPosts = await getPosts();
+    const posts = await getPosts();
+    const sortedPosts = posts.sort((a, b) => b.date.localeCompare(a.date));
     return { props: { posts: sortedPosts } };
 }
 
 const Blog = ({ posts }) => {
     return (
         <Base title="Blog">
-            <Head>
-                <link
-                    href="/themes/nord.css"
-                    rel="stylesheet"
-                ></link>
-            </Head>
             <style jsx>{`
                 .post-list {
                     margin-left: 0;
