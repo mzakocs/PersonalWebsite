@@ -185,3 +185,15 @@ code {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+/* Markdown table styling */
+
+table, td, th {
+  border-collapse: collapse;
+  border: 2px solid var(--lightlightgrey);
+  padding: 10px;
+}
+
+table {
+  margin: 10px;
+}
