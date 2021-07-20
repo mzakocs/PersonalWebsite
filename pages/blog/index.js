@@ -16,7 +16,7 @@ export async function getStaticProps() {
 
 const Blog = ({ posts }) => {
     return (
-        <Base title="Blog">
+        <Base title="Blog" blog={true}>
             <style jsx>{`
                 .post-list {
                     margin-left: 0;
