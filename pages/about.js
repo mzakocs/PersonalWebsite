@@ -46,7 +46,7 @@ const About = () => {
                         Designing reactive front-end UI's with HTML, CSS, Material-UI, and JavaScript
                     </li>
                     <li>
-                        Building reliable & scalable back-end systems in Python and Java
+                        Building reliable & scalable back-end systems in Python, Java, and C++
                     </li>
                     <li>
                         Managing databases with PostgreSQL, MongoDB, REST API's, Apollo, and GraphQL
@@ -70,7 +70,7 @@ const About = () => {
                         Dynamically reverse-engineering binaries using IDA Debug, x64dbg, OllyDbg, and gdb
                     </li>
                     <li>
-                        Developing security-related applications & plugins using the Win32 API, Chrome DevTools API, and IDAPython
+                        Developing security-related applications & plugins in Python and C++ using the Win32 API, Chrome DevTools API, and IDAPython
                     </li>
                     <li>
                         Discovering security exploits in both web and desktop environments
