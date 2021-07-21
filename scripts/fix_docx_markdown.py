@@ -29,13 +29,13 @@ for i in range(0, len(content)):
     elif "![]" in content[i - 2]:
         newContent.append('<p class="caption">' + line.replace("*", "") + '</p>')
     # Fix no horizontal lines
-    elif "![]" in content[i - 4]:
-        newContent.append("\n")
-        newContent.append("***")
-        newContent.append(line)
-    elif "![]" in content[i + 1]:
-        newContent.append("***")
-        newContent.append("\n")
+    # elif "![]" in content[i - 4]:
+    #     newContent.append("\n")
+    #     newContent.append("***")
+    #     newContent.append(line)
+    # elif "![]" in content[i + 1]:
+    #     newContent.append("***")
+    #     newContent.append("\n")
     # Remove .ul for links
     elif "{.ul}" in line:
         newContent.append(line.replace("{.ul}]", "").replace("[[", "["))
