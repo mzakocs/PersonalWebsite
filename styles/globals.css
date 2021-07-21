@@ -2,8 +2,8 @@
   --blue: #007fa9;
   --darkblue: #085163;
   --grey: #222;
-  --lightgrey: #2d2f2d;
-  --lightlightgrey: #828282;
+  --lightgrey: #828282;
+  --lightlightgrey: #bebebe;
 }
 
 html,
@@ -24,13 +24,14 @@ p {
 
 em {
   font-size: 14px;
-  color: rgb(196, 196, 196);
+  color: var(--lightlightgrey);
 }
 
 .caption {
   font-size: 12px;
-  margin-top: 6px;
+  margin: 10px 0px;
   text-align: center;
+  color: var(--lightgrey);
 }
 
 hr {
@@ -47,7 +48,22 @@ a {
 }
 
 h1 {
+  /*text-align: center;*/
+  font-size: 26px;
+  line-height: 50px;
+  border-bottom: 2px solid var(--blue);
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 50px;
+  border-bottom: 2px solid white;
+}
+
+.blogTitle {
+  font-size: 26px;
   text-align: center;
+  border-bottom: none;
 }
 
 a.green-link,
@@ -67,24 +83,39 @@ article a:hover {
 }
 
 p > ul,
+.main-content > ul,
 ol {
   padding: 0;
   margin-left: 1.5em;
 }
 
-p > ul {
+p > ul,
+.main-content > ul,
+.main-content > ul > li > ul {
   list-style-type: none;
 }
 
-p > ul > li {
+p > ul > li,  
+.main-content > ul > li {
   margin-bottom: 10px;
 }
 
-p > ul > li:before {
+p > ul > li:before,
+.main-content > ul > li:before {
   content: "–";
 }
 
-p > ul > li:before {
+.main-content > ul > li > ul > li:before {
+  content: "🝰";
+}
+
+.main-content > ul > li > ul > li {
+  margin: 10px 0px;
+}
+
+p > ul > li:before,
+.main-content > ul > li:before,
+.main-content > ul > li > ul > li:before {
   display: inline-block;
   color: #999;
   position: absolute;
@@ -148,7 +179,7 @@ main {
 img {
   max-width: 90%;
   display: block;
-  margin: auto;
+  margin: 15px auto;
 }
 
 /* Large Screens */
@@ -190,7 +221,7 @@ code {
 
 table, td, th {
   border-collapse: collapse;
-  border: 2px solid var(--lightlightgrey);
+  border: 2px solid var(--lightgrey);
   padding: 10px;
 }
 

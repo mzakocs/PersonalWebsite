@@ -11,17 +11,17 @@ const About = () => {
     return (
         <Base title="About">
             <style jsx>{`
-                h2 {
-                    border-bottom: 2px solid currentColor;
+                h1 {
                     line-height: 50px;
                     width: 100%;
+                    color: white;
                 }
                 h3 {
                     text-align: center;
                 }
             `}</style>
             <p>
-                <h2>Summary</h2>
+                <h1>Summary</h1>
                 Hello! I'm an undergrad Computer Science student at Arizona State University interested in Software Engineering and Software Security.
                 <br /><br />
                 I have over {getYearsSince(2017)} years of personal programming experience, {getYearsSince(2019)} years of professional programming experience, and a handful of nice projects that I love working on.
@@ -36,7 +36,7 @@ const About = () => {
                 Apart from Computer Science, my other interests include cooking, graphic design, learning languages, writing, golfing, crafting/playing guitars, fixing/riding bicycles, tinkering with electronics, and making custom keyboards.
                 <br /><br />
                 I hope you enjoy my website. Feel free to take a look at the other sections below (or maybe one of my <a href="/blog">blog posts</a>).
-                <h2>Disciplines</h2>
+                <h1>Disciplines</h1>
                 <h3>Software Engineering</h3>
                 <ul>
                     <li>
@@ -84,7 +84,7 @@ const About = () => {
                 </ul>
                 {/* <h2>Projects</h2>
                 Check out my projects on GitHub by clicking the icon in the footer or the link <a href="https://github.com/mzakocs">here</a>. */}
-                <h2>Résumé</h2>
+                <h1>Résumé</h1>
                 Below, you can find the latest copy of my résumé. You can also <a href="/resume.pdf" download="Resume Mitchell Zakocs.pdf">download it</a>.
                 <br /> <br />
                 <div className="pdfContainer">
@@ -96,7 +96,7 @@ const About = () => {
                         />
                     </Document>
                 </div>
-                <h2>Contact</h2>
+                <h1>Contact</h1>
                 Email: <a href="mailto:mzakocs@gmail.com">mzakocs@gmail.com</a>
                 <br />
                 Discord: mzakocs#0696

@@ -17,12 +17,6 @@ const Home = ({ posts }) => {
           font-size: 20px;
           text-align: center;
         }
-        h2 {
-          border-bottom: 2px solid currentColor;
-          line-height: 50px;
-          width: 100%;
-          text-align: center;
-        }
       `}</style>
       <SplineBanner />
       <p>

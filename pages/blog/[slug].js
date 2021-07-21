@@ -38,7 +38,7 @@ export default function Post({ slug, title, date, html }) {
               rel="stylesheet"
             ></link>
           </Head>
-          <h1 itemProp="name headline">{title}</h1>
+          <h1 itemProp="name headline" className="blogTitle">{title}</h1>
           <p
             style={{ textAlign: "center", fontSize: "1em", lineHeight: "1", marginBottom: "1em" }}
           >
