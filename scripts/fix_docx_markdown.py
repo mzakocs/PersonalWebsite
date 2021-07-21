@@ -27,7 +27,7 @@ for i in range(0, len(content)):
         newContent.append("![](" + newImagePath + ")")
     # Fix captions
     elif "![]" in content[i - 2]:
-        newContent.append('<p class="caption">' + line + '</p>')
+        newContent.append('<p class="caption">' + line.replace("*", "") + '</p>')
     # Fix no horizontal lines
     elif "![]" in content[i - 4]:
         newContent.append("\n")
