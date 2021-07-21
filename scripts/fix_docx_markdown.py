@@ -1,6 +1,6 @@
 # A small script to fix markdown files created by converting docx files
 # Utilities for this:
-# https://pandoc.org/
+# https://pandoc.org/ (pandoc -f docx -t markdown -o markd.md --wrap none test.docx)
 # https://www.tablesgenerator.com/markdown_tables# (enable “Line breaks as <br>”)
 
 
@@ -12,14 +12,6 @@ content = file.read().split("\n")
 newContent = []
 
 blogName = content[1].split(": ")[1].replace("'", "")
-
-# Prefilter height lines
-j = 0
-while (j < len(content)):
-    line = content[j]
-    if line[0:8] == 'height="':
-        content.pop(j)
-    j += 1
 
 # Fix images
 for i in range(0, len(content)):
@@ -35,15 +27,15 @@ for i in range(0, len(content)):
         newContent.append("![](" + newImagePath + ")")
     # Fix captions
     elif "![]" in content[i - 2]:
-        newContent.append('<p class="caption">' + line + '</p>')
+        newContent.append('<p class="caption">' + line.replace("*", "") + '</p>')
     # Fix no horizontal lines
-    elif "![]" in content[i - 4]:
-        newContent.append("\n")
-        newContent.append("***")
-        newContent.append(line)
-    elif "![]" in content[i + 1]:
-        newContent.append("***")
-        newContent.append("\n")
+    # elif "![]" in content[i - 4]:
+    #     newContent.append("\n")
+    #     newContent.append("***")
+    #     newContent.append(line)
+    # elif "![]" in content[i + 1]:
+    #     newContent.append("***")
+    #     newContent.append("\n")
     # Remove .ul for links
     elif "{.ul}" in line:
         newContent.append(line.replace("{.ul}]", "").replace("[[", "["))

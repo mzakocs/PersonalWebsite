@@ -42,8 +42,5 @@ export async function getPosts() {
     })
   );
 
-  // Sort posts by date
-  posts = posts.sort((a, b) => (new Date(a.date).getTime() > new Date(b.date).getTime()))
-  
   return posts;
 }
