@@ -10,8 +10,11 @@ import { getPosts } from '../../util/posts';
 
 export async function getStaticProps() {
     const posts = await getPosts();
+    // Sorts posts by date
     const sortedPosts = posts.sort((a, b) => b.date.localeCompare(a.date));
-    return { props: { posts: sortedPosts } };
+    // Removes posts if they aren't to their release date yet
+    const filteredPosts = sortedPosts.filter((value) => (new Date(value.date).getTime() < new Date().getTime()))
+    return { props: { posts: filteredPosts } };
 }
 
 const Blog = ({ posts }) => {
@@ -19,7 +22,7 @@ const Blog = ({ posts }) => {
         <Base title="Blog" blog={true}>
             <style jsx>{`
                 .post-list {
-                    margin-left: 0;
+                    padding-left: 5vw;
                     list-style: none;
                 }
                 .post-list > li {
@@ -29,12 +32,16 @@ const Blog = ({ posts }) => {
                 }          
                 .post-meta {
                     font-size: 14px;
-                    color: var(--lightlightgrey);
+                    color: var(--lightgrey);
                 }        
                 .post-link {
                     display: block;
                     font-size: 24px;
                     margin: 0px;
+                }
+                .post-list-heading {
+                    border-bottom: none;
+                    text-align: center;
                 }
             `}</style>
             <h1 className="post-list-heading">Posts</h1>
