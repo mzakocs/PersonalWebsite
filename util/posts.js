@@ -4,7 +4,7 @@ import { resolve, join } from "path";
 const { readFile, readdir } = fs.promises;
 
 // Grabs all of the blog posts and puts them into nice objects :)
-export async function getPosts() {
+export const getPosts = async () => {
   const postsDirectory = resolve(process.cwd(), "_posts");
   const postFiles = await readdir(postsDirectory);
 

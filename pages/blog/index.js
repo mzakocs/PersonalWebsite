@@ -17,6 +17,19 @@ export async function getStaticProps() {
     return { props: { posts: filteredPosts } };
 }
 
+const shortenNameString = (nameString) => {
+    // Turns this: "Mitchell Zakocs, John Doe" into this: "Mitchell, John"
+    let commaSplit = nameString.split(", ");
+    let newName = "";
+    commaSplit.forEach((name, i) => {
+        newName += name.split(" ")[0]
+        if (i != (commaSplit.length - 1)) {
+            newName += ", "
+        }
+    })
+    return newName;
+}
+
 const Blog = ({ posts }) => {
     return (
         <Base title="Blog" blog={true}>
@@ -60,7 +73,7 @@ const Blog = ({ posts }) => {
                                 </div>
                             </Link>
                             <span className="post-meta">
-                                {"by " + post.author}
+                                {"by " + shortenNameString(post.author)}
                             </span>
                         </div>
                     </li>

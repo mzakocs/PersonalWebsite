@@ -101,12 +101,9 @@ p > ul > li,
 }
 
 p > ul > li:before,
-.main-content > ul > li:before {
-  content: "–";
-}
-
+.main-content > ul > li:before,
 .main-content > ul > li > ul > li:before {
-  content: "🝰";
+  content: "–";
 }
 
 .main-content > ul > li > ul > li {

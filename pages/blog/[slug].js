@@ -16,14 +16,14 @@ export async function getStaticProps({ params }) {
   const { slug } = params;
   const post = (await getPosts()).find((p) => p.slug === slug);
   if (!post) return;
-  const { title, date, content } = post;
+  const { title, date, content, author } = post;
   const html = markdownToHtml(content);
   return {
-    props: { slug, title, date, html },
+    props: { slug, title, date, author, html },
   };
 }
 
-export default function Post({ slug, title, date, html }) {
+export default function Post({ slug, title, date, author, html }) {
   useEffect(() => {
     // Initialize highlight.js
     hljs.highlightAll()
@@ -43,7 +43,7 @@ export default function Post({ slug, title, date, html }) {
             style={{ textAlign: "center", fontSize: "1em", lineHeight: "1", marginBottom: "1em" }}
           >
             <time dateTime={date} itemProp="datePublished">
-              {formatDate(date)}
+              {`${author} • ${formatDate(date)}`}
             </time>
           </p>
         </header>
