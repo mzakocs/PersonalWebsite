@@ -9,7 +9,7 @@ export function markdownToHtml(md, baseUrl) {
       if (!lang) {
         return highlightAuto(code).value;
       }
-      return highlight(lang, code).value;
+      return highlight(code, { language: lang }).value;
     },
   });
   return html;
