@@ -175,6 +175,7 @@ main {
 
 img {
   max-width: 90%;
+  max-height: 80vh;
   display: block;
   margin: 15px auto;
 }
