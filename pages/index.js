@@ -11,7 +11,7 @@ export async function getStaticProps() {
 
 const Home = ({ posts }) => {
   return (
-    <Base title="Home">
+    <Base title="Mitchell Zakocs">
       <style jsx>{`
         p {
           font-size: 20px;
