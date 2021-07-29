@@ -20,9 +20,9 @@ const Home = ({ posts }) => {
       `}</style>
       <SplineBanner />
       <p>
-        Computer Science Student at Arizona State University who's obsessed with Software Engineering, Computer Security, and everything in between. 
+        Computer Science Undergrad at Arizona State University who's obsessed with Software Engineering, Computer Security, and everything in between. 
         <br></br><br></br>
-        Currently working as a Research Intern at the ASU SEFCOM Lab researching Software Virtualization.
+        Currently studying for college, working on open-source projects, and looking for Summer 2022 Internships.
       </p>
     </Base>
   );
