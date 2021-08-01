@@ -41,7 +41,12 @@ export default function Post({ slug, title, date, author, html }) {
         "@type": "Person",
         "name": author
       },
-      "datePublished": formatDate(date)
+      "publisher": {
+        "@type": "Person",
+        "name": "Mitchell Zakocs"
+      },
+      "datePublished": formatDate(date),
+      "image": `/blog/${slug}/thumbnail.png`
     }}>
       <article>
         <header>
