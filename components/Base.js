@@ -36,7 +36,7 @@ const Base = ({ children, title, blog, structuredData }) => {
         {/* Structured Data for SEO */}
         {/* https://technicalseo.com/tools/schema-markup-generator/ */}
         <script
-          {...jsonLdScriptProps < Person > (structuredData || {})}
+          {...jsonLdScriptProps (structuredData || {})}
         />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
         <meta charSet="utf-8" />
