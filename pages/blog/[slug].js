@@ -42,8 +42,12 @@ export default function Post({ slug, title, date, author, html }) {
         "name": author
       },
       "publisher": {
-        "@type": "Person",
-        "name": "Mitchell Zakocs"
+        "@type": "Organization",
+        "name": "Mitchell Zakocs",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "/android-chrome-256x256.png"
+        }
       },
       "datePublished": formatDate(date),
       "image": `/blog/${slug}/thumbnail.png`
