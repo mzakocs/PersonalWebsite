@@ -11,7 +11,21 @@ export async function getStaticProps() {
 
 const Home = ({ posts }) => {
   return (
-    <Base title="Mitchell Zakocs">
+    <Base title="Mitchell Zakocs" structuredData={{
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: "Mitchell Zakocs",
+      additionalName: "Mitch Zakocs",
+      jobTitle: "Computer Science Student",
+      alumniOf: {
+        "@type": "CollegeOrUniversity",
+        name: ["Arizona State University"],
+      },
+      sameAs: [
+        "https://github.com/mzakocs",
+        "https://www.linkedin.com/in/mitchzakocs/"
+      ]
+    }}>
       <style jsx>{`
         p {
           font-size: 20px;
@@ -20,7 +34,7 @@ const Home = ({ posts }) => {
       `}</style>
       <SplineBanner />
       <p>
-        Computer Science Undergrad at Arizona State University who's obsessed with Software Engineering, Computer Security, and everything in between. 
+        Computer Science Undergrad at Arizona State University who's obsessed with Software Engineering, Computer Security, and everything in between.
         <br></br><br></br>
         Currently studying for college, working on open-source projects, and looking for Summer 2022 Internships.
       </p>

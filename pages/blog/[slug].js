@@ -29,7 +29,20 @@ export default function Post({ slug, title, date, author, html }) {
     hljs.highlightAll()
   }, []);
   return (
-    <Base title={title} blog={true}>
+    <Base title={title} blog={true} structuredData={{
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": slug
+      },
+      "headline": "title",
+      "author": {
+        "@type": "Person",
+        "name": author
+      },
+      "datePublished": formatDate(date)
+    }}>
       <article>
         <header>
           <Head>
