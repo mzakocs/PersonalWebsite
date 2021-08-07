@@ -26,16 +26,16 @@ const About = () => {
                 <br /><br />
                 I have over {getYearsSince(2017)} years of personal programming experience, {getYearsSince(2019)} years of professional programming experience, and a handful of nice projects that I love working on.
                 <br /><br />
-                Regarding computer languages, I'm heavily experienced in JavaScript, Java, Python, C/C++, x86, HTML, and CSS.
+                Regarding computer languages, I have professional experience with JavaScript, Java, Python, C, x86, HTML, and CSS.
                 <br /><br />
-                I'm also familiar with Julia, C#, and Lua; I've worked directly with these languages before but I'm not a wizard with them.
+                I'm also fairly familiar with C++, Julia, C#, and Lua. I've worked directly with these languages in the past but only briefly.
                 <br /><br />
                 With real languages, I'm fluent in both English and Spanish (certified by the state of Arizona).
                 I'm also studying Arabic in my spare time and I'd like to start learning Mandarin, German, Dutch, Russian, or Portuguese sometime in the foreseeable future.
+                {/* <br /><br />
+                Apart from Computer Science, my other interests include cooking, graphic design, learning languages, writing, golfing, crafting/playing guitars, fixing/riding bicycles, tinkering with electronics, and making custom keyboards. */}
                 <br /><br />
-                Apart from Computer Science, my other interests include cooking, graphic design, learning languages, writing, golfing, crafting/playing guitars, fixing/riding bicycles, tinkering with electronics, and making custom keyboards.
-                <br /><br />
-                I hope you enjoy my website. Feel free to take a look at the other sections below (or maybe one of my <a href="/blog">blog posts</a>).
+                I hope you enjoy the website. Feel free to take a look at the other sections below (or maybe the blog posts <a href="/blog">here</a>).
                 <h1>Disciplines</h1>
                 <h3>Software Engineering</h3>
                 <ul>
@@ -46,34 +46,34 @@ const About = () => {
                         Designing reactive front-end UI's with HTML, CSS, Material-UI, and JavaScript
                     </li>
                     <li>
-                        Building reliable & scalable back-end systems in Python, Java, and C++
+                        Building reliable & scalable back-end systems in Java, JavaScript, and Python
                     </li>
                     <li>
                         Managing databases with PostgreSQL, MongoDB, REST API's, Apollo, and GraphQL
                     </li>
                     <li>
-                        Programming firmware for micro-controllers in C and MicroPython
+                        Creating firmware for micro-controllers using C and MicroPython
                     </li>
                     <li>
-                        Maintaining large projects with Git, GitHub, Vercel, and the Google Cloud Platform
+                        Maintaining projects with Git, GitHub, Vercel, and the Google Cloud Platform
                     </li>
                     <li>
-                        Learning quickly and adapting to the newest technologies, frameworks, and libraries
+                        Learning new technologies, frameworks, and libraries while adapting to the needs of a project
                     </li>
                 </ul>
                 <h3>Software Security</h3>
                 <ul>
                     <li>
-                        Statically reverse-engineering binaries using IDA Pro, Ghidra, and dnSpy
+                        Statically reverse-engineering binaries with IDA Pro, Ghidra, and dnSpy
                     </li>
                     <li>
-                        Dynamically reverse-engineering binaries using IDA Debug, x64dbg, OllyDbg, and gdb
+                        Dynamically reverse-engineering binaries with IDA Debug, x64dbg, OllyDbg, and gdb
                     </li>
                     <li>
                         Developing security-related applications & plugins in Python and C++ using the Win32 API, Chrome DevTools API, and IDAPython
                     </li>
                     <li>
-                        Discovering security exploits in both web and desktop environments
+                        Discovering security exploits in both web and desktop applications
                     </li>
                     <li>
                         Analyzing network activity with Wireshark, Burp Suite, and nmap
