@@ -29,7 +29,29 @@ export default function Post({ slug, title, date, author, html }) {
     hljs.highlightAll()
   }, []);
   return (
-    <Base title={title} blog={true}>
+    <Base title={title} blog={true} structuredData={{
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": slug
+      },
+      "headline": "title",
+      "author": {
+        "@type": "Person",
+        "name": author
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Mitchell Zakocs",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "/android-chrome-256x256.png"
+        }
+      },
+      "datePublished": formatDate(date),
+      "image": `/blog/${slug}/thumbnail.png`
+    }}>
       <article>
         <header>
           <Head>
