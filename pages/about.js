@@ -49,7 +49,7 @@ const About = () => {
                         Building reliable & scalable back-end systems in Python, Java, and C++
                     </li>
                     <li>
-                        Managing databases with PostgreSQL, MongoDB, REST API's, Apollo, and GraphQL
+                        Managing databases with PostgreSQL, MongoDB, and REST API's along with a solid understanding of Apollo and GraphQL
                     </li>
                     <li>
                         Programming firmware for micro-controllers in C and MicroPython
