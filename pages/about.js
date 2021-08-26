@@ -49,7 +49,7 @@ const About = () => {
                         Building reliable & scalable back-end systems in Java, JavaScript, and Python
                     </li>
                     <li>
-                        Managing databases & data with PostgreSQL, MongoDB, REST API's, Looker, Apollo, and GraphQL
+                        Managing data with PostgreSQL, MongoDB, Looker, and REST API's along with a solid understanding of Apollo and GraphQL
                     </li>
                     <li>
                         Creating firmware for micro-controllers using C and MicroPython
