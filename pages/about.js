@@ -43,7 +43,7 @@ const About = () => {
                         Developing JavaScript SPA's with React, Next.js, Express.js, Sencha ExtJS, and more
                     </li>
                     <li>
-                        Designing reactive front-end UI's with HTML, CSS, Material-UI, and JavaScript
+                        Designing reactive front-end UI's with HTML, CSS, Material-UI, jQuery, and JavaScript
                     </li>
                     <li>
                         Building reliable & scalable back-end systems in Java, JavaScript, and Python
@@ -55,7 +55,7 @@ const About = () => {
                         Creating firmware for micro-controllers using C and MicroPython
                     </li>
                     <li>
-                        Maintaining projects with Git, GitHub, Vercel, and the Google Cloud Platform
+                        Maintaining projects with Git, GitHub, Vercel, Vagrant, and the Google Cloud Platform
                     </li>
                     <li>
                         Learning new technologies, frameworks, and libraries while adapting to the needs of a project

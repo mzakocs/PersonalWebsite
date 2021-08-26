@@ -36,7 +36,8 @@ const Home = ({ posts }) => {
       <p>
         Computer Science Undergrad at Arizona State University who's obsessed with Software Engineering, Computer Security, and everything in between.
         <br></br><br></br>
-        Currently studying for college, working on open-source projects, and looking for Summer 2022 Internships.
+        I'm currently interning at Culdesac as a Business Operations Intern. I utilize SQL and Looker to provide expressive data for the first from-scratch walkable neighborhood in the US.
+        I've also been studying for college, working on open-source projects, and looking for Summer 2022 Internships.
       </p>
     </Base>
   );
