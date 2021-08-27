@@ -24,7 +24,7 @@ const About = () => {
                 <h1 id="summary">Summary</h1>
                 Hello! I'm an undergrad Computer Science student at Arizona State University interested in Software Engineering and Software Security.
                 <br /><br />
-                I have over {getYearsSince(2017)} years of personal programming experience, {getYearsSince(2019)} years of professional programming experience, and a handful of nice projects that I love working on.
+                I have over {getYearsSince(2017)} years of personal programming experience, {getYearsSince(2019)} years of professional programming experience, and a <a href="https://github.com/mzakocs">handful of nice projects</a> that I love working on.
                 <br /><br />
                 Regarding computer languages, I have professional experience with JavaScript, Java, Python, C, x86, HTML, and CSS.
                 <br /><br />
