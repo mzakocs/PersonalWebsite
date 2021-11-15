@@ -34,10 +34,10 @@ const Home = ({ posts }) => {
       `}</style>
       <SplineBanner />
       <p>
-        Computer Science Undergrad at Arizona State University who's obsessed with Software Engineering, Computer Security, and everything in between.
+        Computer Science Undergrad at Arizona State University who's obsessed with Software Engineering, Computer Security, and anything related.
         <br></br><br></br>
         I'm currently interning at Culdesac as a Business Operations Intern. I utilize SQL and Looker to provide expressive data for the first from-scratch walkable neighborhood in the US.
-        I've also been studying for college, working on open-source projects, and looking for Summer 2022 Internships.
+        I've also been studying for college, working on open-source projects, and looking for Fall 2022 Internships.
       </p>
     </Base>
   );
