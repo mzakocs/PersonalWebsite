@@ -1,0 +1,31 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#main_box{
+  background-color: black;
+  color: white;
+  height: 600px;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#start_button {
+  height: 500px;
+  width: 700px;
+  font-size: 35px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #070707;
+  color: white;
+  border: none;
+
+}
+#square {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  display: none;
+}
