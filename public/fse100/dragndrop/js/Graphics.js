@@ -27,13 +27,13 @@ function drawEverything (){
 	
 }
   function loadImages(){
-    Bottle_Img.src = "Images/Bottle.png"
-    Car_Img.src = "Images/Car.png"
-    Cat_Img.src = "Images/Cat.png"
-    Dog_Img.src = "Images/Dog.png"
-    Fish_Img.src = "Images/Fish.png"
-    Skateboard_Img.src = "Images/Skateboard.png"
-    Umbrella_Img.src = "Images/umbrella.png"
+    Bottle_Img.src = "fse100/dragndrop/images/Bottle.png"
+    Car_Img.src = "fse100/dragndrop/images/Car.png"
+    Cat_Img.src = "fse100/dragndrop/images/Cat.png"
+    Dog_Img.src = "fse100/dragndrop/images/Dog.png"
+    Fish_Img.src = "fse100/dragndrop/images/Fish.png"
+    Skateboard_Img.src = "fse100/dragndrop/images/Skateboard.png"
+    Umbrella_Img.src = "fse100/dragndrop/images/umbrella.png"
   }
 
   function drawText(color, font, words, X, Y){
