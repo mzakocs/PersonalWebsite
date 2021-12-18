@@ -34,9 +34,9 @@ const Home = ({ posts }) => {
       `}</style>
       <SplineBanner />
       <p>
-        Computer Science Undergrad at Arizona State University who's obsessed with Software Engineering, Computer Security, and anything related.
+        Computer Science Undergrad at Arizona State University interested in Software Engineering, Computer Security, and anything related.
         <br></br><br></br>
-        I'm currently interning at Culdesac as a Business Operations Intern. I utilize SQL and Looker to provide expressive data for the first from-scratch walkable neighborhood in the US.
+        Right now I'm working at the ASU SEFCOM Lab working on Computer Security research.
         I've also been studying for college, working on open-source projects, and looking for Fall 2022 Internships.
       </p>
     </Base>
