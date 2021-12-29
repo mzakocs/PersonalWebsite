@@ -36,7 +36,7 @@ const Home = ({ posts }) => {
       <p>
         Computer Science Undergrad at Arizona State University interested in Software Engineering, Computer Security, and anything related.
         <br></br><br></br>
-        Currently I'm working at the ASU SEFCOM Lab researching important problems related to Computer Security.
+        Currently I'm working at the ASU SEFCOM Lab researching bleeding-edge computer security problems related to software and exploit development.
         I've also been studying for college, working on open-source projects, and looking for Summer 2022 Internships.
       </p>
     </Base>
