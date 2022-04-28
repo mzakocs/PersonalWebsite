@@ -9,7 +9,7 @@ var count = 0;
 
 // Loads the sketch image
 function preload() {
-  imgs[0] = loadImage("mitch.png");
+  imgs[0] = loadImage("/eng105/mitch.png");
 }
 
 // Sets up the canvas
