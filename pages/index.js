@@ -36,8 +36,8 @@ const Home = ({ posts }) => {
       <p>
         Computer Science Undergrad at Arizona State University interested in Software Engineering, Computer Security, and anything related.
         <br></br><br></br>
-        Currently I'm working at the ASU SEFCOM Lab securing photonic lasers on satellites with DARPA & honing my exploit development/vulnerability analysis skills.
-        I've also been studying for college, working on open-source projects, and looking for Summer 2022 Internships.
+        Currently, I'm headed to Washington D.C. for the summer to work on the ILLUMA-T Photonics system at NASA.
+        I'll be working on a software simulator for a laser communications unit that will be put on the ISS in a year or two.
       </p>
     </Base>
   );
