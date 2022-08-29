@@ -36,8 +36,7 @@ const Home = ({ posts }) => {
       <p>
         Computer Science Undergrad at Arizona State University interested in Software Engineering, Computer Security, and anything related.
         <br></br><br></br>
-        Currently, I'm headed to Washington D.C. for the summer to work on the ILLUMA-T Photonics system at NASA.
-        I'll be working on a software simulator for a laser communications unit that will be put on the ISS in a year or two.
+        Currently, I'm in my second year of undergrad at ASU. I'm also in the SEFCOM Computer Security Research Lab doing work on vulnerability discovery and fuzzing.
       </p>
     </Base>
   );
