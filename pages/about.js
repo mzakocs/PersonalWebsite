@@ -24,38 +24,37 @@ const About = () => {
                 <h1 id="summary">Summary</h1>
                 Hello! I'm an undergrad Computer Science student at Arizona State University interested in Software Engineering and Software Security.
                 <br /><br />
-                I have over {getYearsSince(2017)} years of personal programming experience, {getYearsSince(2019)} years of professional programming experience, and a <a href="https://github.com/mzakocs">handful of nice projects</a> that I love working on.
+                I have over {getYearsSince(2017)} years of personal programming experience, {getYearsSince(2019)} years of professional programming experience, and a <a href="https://github.com/mzakocs">handful of projects</a> that I love working on.
                 <br /><br />
-                Regarding computer languages, I have professional experience with JavaScript, Java, Python, C, x86, HTML, and CSS.
+                Regarding computer languages, I have professional experience with JavaScript, Java, Python, C++, C, x86, HTML, and CSS.
                 <br /><br />
-                I'm also fairly familiar with C++, Julia, C#, and Lua. I've worked directly with these languages in the past but only briefly.
+                I'm also fairly familiar with C#, Julia, and Lua. I've worked directly with these languages in the past but only briefly.
                 <br /><br />
                 With real languages, I'm fluent in both English and Spanish (certified by the state of Arizona).
-                I'm also studying Arabic in my spare time and I'd like to start learning Mandarin, German, Dutch, Russian, or Portuguese sometime in the foreseeable future.
-                {/* <br /><br />
-                Apart from Computer Science, my other interests include cooking, graphic design, learning languages, writing, golfing, crafting/playing guitars, fixing/riding bicycles, tinkering with electronics, and making custom keyboards. */}
+                I'd like to study Mandarin, German, Dutch, Russian, or Portuguese sometime in the future.
                 <br /><br />
                 I hope you enjoy the website. Feel free to take a look at the other sections below (or maybe the blog posts <a href="/blog">here</a>).
                 <h1>Disciplines</h1>
                 <h3>Software Engineering</h3>
                 <ul>
                     <li>
+                        Building scalable back-end systems & tools in Python, C, C++, Java, and JavaScript
+                    </li>
+                    <li>
                         Developing JavaScript SPA's with React, Next.js, Express.js, Sencha ExtJS, and more
                     </li>
                     <li>
                         Designing reactive front-end UI's with HTML, CSS, Material-UI, jQuery, and JavaScript
                     </li>
-                    <li>
-                        Building reliable & scalable back-end systems in Java, JavaScript, and Python
-                    </li>
+                    
                     <li>
                         Managing data with PostgreSQL, MongoDB, Looker, and REST API's along with a solid understanding of Apollo and GraphQL
                     </li>
                     <li>
-                        Creating firmware for micro-controllers using C and MicroPython
+                        Creating firmware for micro-controllers using C, C++, and MicroPython
                     </li>
                     <li>
-                        Maintaining projects with Git, GitHub, Vercel, Vagrant, and the Google Cloud Platform
+                        Maintaining projects with Git, GitHub, Vercel, Vagrant, AWS EC2, Kubernetes, and the Google Cloud Platform
                     </li>
                     <li>
                         Learning new technologies, frameworks, and libraries while adapting to the needs of a project
@@ -67,7 +66,7 @@ const About = () => {
                         Statically reverse-engineering binaries with IDA Pro, Ghidra, and dnSpy
                     </li>
                     <li>
-                        Dynamically reverse-engineering binaries with IDA Debug, x64dbg, OllyDbg, and gdb
+                        Dynamically reverse-engineering binaries with IDA Debug, x64dbg, WinDBG, and gdb
                     </li>
                     <li>
                         Developing security-related applications & plugins in Python and C++ using the Win32 API, Chrome DevTools API, and IDAPython
