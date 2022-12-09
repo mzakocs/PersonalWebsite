@@ -1,7 +1,7 @@
 ---
 slug: 'vmprotect3-revisited'
 title: 'VMProtect 3 Revisited: Virtualization-Based Software Obfuscation Pt. 3'
-date: '2022-12-30T08:35:46.730Z'
+date: '2025-12-30T08:35:46.730Z'
 author: 'Mitch Zakocs'
 ---
 
