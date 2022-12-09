@@ -34,9 +34,9 @@ const Home = ({ posts }) => {
       `}</style>
       <SplineBanner />
       <p>
-        Computer Science Undergrad at Arizona State University interested in Software Engineering, Computer Security, and anything related.
+        Computer Science Student at Arizona State University interested in Software Engineering and Computer Security
         <br></br><br></br>
-        Currently, I'm in my second year of undergrad at ASU. I'm also in the SEFCOM Computer Security Research Lab doing work on vulnerability discovery and fuzzing.
+        Currently splitting my time between second-year undergrad classes and security research at the ASU SEFCOM Lab.
       </p>
     </Base>
   );

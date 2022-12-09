@@ -22,23 +22,22 @@ const About = () => {
             `}</style>
             <p>
                 <h1 id="summary">Summary</h1>
-                Hello! I'm an undergrad Computer Science student at Arizona State University interested in Software Engineering and Software Security.
+                I'm an undergrad Computer Science student at Arizona State University interested in Software Engineering and Software Security.
                 <br /><br />
-                I have over {getYearsSince(2017)} years of personal programming experience, {getYearsSince(2019)} years of professional programming experience, and a <a href="https://github.com/mzakocs">handful of projects</a> that I love working on.
+                I have over {getYearsSince(2017)} years of programming experience and a <a href="https://github.com/mzakocs">handful of personal projects</a>.
                 <br /><br />
-                Regarding computer languages, I have professional experience with JavaScript, Java, Python, C++, C, x86, HTML, and CSS.
+                With computer languages, I have professional experience with JavaScript, Java, Python, C++, C, x86, HTML, and CSS.
                 <br /><br />
                 I'm also fairly familiar with C#, Julia, and Lua. I've worked directly with these languages in the past but only briefly.
                 <br /><br />
-                With real languages, I'm fluent in both English and Spanish (certified by the state of Arizona).
-                I'd like to study Mandarin, German, Dutch, Russian, or Portuguese sometime in the future.
+                With real languages, I'm fluent in both English and Spanish. I'd love to learn Mandarin, German, Dutch, Russian, or Portuguese someday.
                 <br /><br />
                 I hope you enjoy the website. Feel free to take a look at the other sections below (or maybe the blog posts <a href="/blog">here</a>).
                 <h1>Disciplines</h1>
                 <h3>Software Engineering</h3>
                 <ul>
                     <li>
-                        Building scalable back-end systems & tools in Python, C, C++, Java, and JavaScript
+                        Building scalable back-end applications & tools in Python, C, C++, Java, and JavaScript
                     </li>
                     <li>
                         Developing JavaScript SPA's with React, Next.js, Express.js, Sencha ExtJS, and more
@@ -46,9 +45,8 @@ const About = () => {
                     <li>
                         Designing reactive front-end UI's with HTML, CSS, Material-UI, jQuery, and JavaScript
                     </li>
-                    
                     <li>
-                        Managing data with PostgreSQL, MongoDB, Looker, and REST API's along with a solid understanding of Apollo and GraphQL
+                        Managing data with PostgreSQL, MongoDB, Looker, and REST API's along with a decent understanding of Apollo and GraphQL
                     </li>
                     <li>
                         Creating firmware for micro-controllers using C, C++, and MicroPython
@@ -72,7 +70,7 @@ const About = () => {
                         Developing security-related applications & plugins in Python and C++ using the Win32 API, Chrome DevTools API, and IDAPython
                     </li>
                     <li>
-                        Discovering security exploits in both web and desktop applications
+                        Discovering security vulnerabilities and exploiting them in both web and desktop environments
                     </li>
                     <li>
                         Analyzing network activity with Wireshark, Burp Suite, and nmap
