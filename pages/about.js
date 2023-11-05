@@ -43,10 +43,10 @@ const About = () => {
                         Dynamically reverse-engineering binaries with gdb, QEMU, IDA Debugger, x64dbg, and WinDBG
                     </li>
                     <li>
-                        Developing security tools in Python and C++ using IDAPython, LLVM, Unicorn, Capstone, afl, Chrome DevTools API, and Win32 API
+                        Developing security tooling in Python and C++ using IDAPython, LLVM, Unicorn, Capstone, afl, Chrome DevTools API, and Win32 API
                     </li>
                     <li>
-                        Discovering security vulnerabilities and exploiting them in embedded, desktop, mobile, and web environments
+                        Discovering security vulnerabilities and exploiting them in embedded, userspace, kernel, and web environments
                     </li>
                     <li>
                         Defeating software obfuscation, protection, and packing methods (including virtualization-based obfuscation)
@@ -61,7 +61,7 @@ const About = () => {
                         Building scalable back-end applications & tools in Python, C, C++, Java, and JavaScript
                     </li>
                     <li>
-                        Writing firmware for micro-controllers using C, C++, FreeRTOS, Arduino, and MicroPython
+                        Writing firmware for embedded systems using C, C++, FreeRTOS, Arduino, and MicroPython
                     </li>
                     <li>
                         Developing JavaScript SPA's with React, Next.js, Express.js, Sencha ExtJS, and more
@@ -70,13 +70,13 @@ const About = () => {
                         Designing reactive front-end UI's with HTML, CSS, Material-UI, jQuery, and JavaScript
                     </li>
                     <li>
-                        Managing data with PostgreSQL, MongoDB, Looker, and REST API's along with a decent understanding of Apollo and GraphQL
+                        Managing data with PostgreSQL, MongoDB, Looker, REST API's, Apollo and GraphQL
                     </li>
                     <li>
                         Maintaining projects with Git, GitHub, Docker, Kubernetes, Vercel, AWS EC2, Vagrant, and the Google Cloud Platform
                     </li>
                     <li>
-                        Learning new technologies, frameworks, and libraries while adapting to the needs of a project
+                        Quickly learning new technologies, frameworks, and libraries while adapting to the needs of a project
                     </li>
                 </ul>
                 {/* <h2>Projects</h2>
