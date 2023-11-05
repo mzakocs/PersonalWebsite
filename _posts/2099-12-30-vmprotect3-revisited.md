@@ -1,7 +1,7 @@
 ---
 slug: 'vmprotect3-revisited'
 title: 'VMProtect 3 Revisited: Virtualization-Based Software Obfuscation Pt. 3'
-date: '2025-12-30T08:35:46.730Z'
+date: '2099-12-30T08:35:46.730Z'
 author: 'Mitch Zakocs'
 ---
 
@@ -9,8 +9,8 @@ author: 'Mitch Zakocs'
 
 - [Introduction](#introduction)
 - [Virtual Jump Instructions](#virtual-jump-instructions)
-- [Virtualized Compares & Tests](#virtualized-compares--tests)
-- [Virtual Jump & VMExit Return Addresses](#virtual-jump--vmexit-return-addresses)
+- [Virtualized Compares \& Tests](#virtualized-compares--tests)
+- [Virtual Jump \& VMExit Return Addresses](#virtual-jump--vmexit-return-addresses)
 - [Calling Other Virtualized Functions](#calling-other-virtualized-functions)
 - [More Virtual Instructions Types](#more-virtual-instructions-types)
 - [Assembly Constructs to Virtual Instructions](#assembly-constructs-to-virtual-instructions)

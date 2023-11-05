@@ -1,7 +1,7 @@
 ---
 slug: 'windows11-kernel-debugging'
 title: 'Vagrant: Automated Windows 11 Kernel Debugging'
-date: '2025-12-30T08:34:46.730Z'
+date: '2099-12-30T08:34:46.730Z'
 author: 'Mitch Zakocs'
 ---
 
@@ -9,7 +9,7 @@ author: 'Mitch Zakocs'
 - [Introduction](#introduction)
 - [Installing Vagrant](#installing-vagrant)
 - [Setting up a Box](#setting-up-a-box)
-- [Scripting & Automation](#scripting--automation)
+- [Scripting \& Automation](#scripting--automation)
 - [Conclusion](#conclusion)
 
 # Introduction
