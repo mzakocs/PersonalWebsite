@@ -43,7 +43,7 @@ const About = () => {
                         Dynamically reverse-engineering binaries with gdb, QEMU, IDA Debugger, x64dbg, and WinDBG
                     </li>
                     <li>
-                        Developing security tooling in Python and C++ using IDAPython, LLVM, Unicorn, Capstone, afl, Chrome DevTools API, and Win32 API
+                        Developing security tooling in Python and C++ using IDAPython, LLVM, Unicorn, Capstone, AFL++, LibAFL, Chrome DevTools API, and Win32 API
                     </li>
                     <li>
                         Discovering security vulnerabilities and exploiting them in embedded, userspace, kernel, and web environments
