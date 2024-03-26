@@ -81,8 +81,8 @@ const About = () => {
                 </ul>
                 {/* <h2>Projects</h2>
                 Check out my projects on GitHub by clicking the icon in the footer or the link <a href="https://github.com/mzakocs">here</a>. */}
-                <h1 id="resume">Résumé</h1>
-                Below, you can find the latest copy of my résumé. You can also <a href="/resume.pdf" download="Resume Mitchell Zakocs.pdf">download it</a>.
+                <h1 id="resume">Resumé</h1>
+                Below, you can find the latest copy of my resumé. You can also <a href="/resume.pdf" download="Resume Mitchell Zakocs.pdf">download it</a>.
                 <br /> <br />
                 <div className="pdfContainer">
                     <Document file={{ url: "/resume.pdf" }} renderMode="canvas">
