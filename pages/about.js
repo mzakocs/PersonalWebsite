@@ -37,16 +37,19 @@ const About = () => {
                 <h3>Software Security</h3>
                 <ul>
                     <li>
+                        Discovering security vulnerabilities and exploiting them in embedded, userspace, kernel, and web environments
+                    </li>
+                    <li>
+                        Fuzzing and testing software with AFL++, libAFL, libFuzzer, libprotobuf-mutator, QEMU, sanitizers, and more
+                    </li>
+                    <li>
                         Statically reverse-engineering binaries with IDA Pro, Ghidra, Binary Ninja, and dnSpy
                     </li>
                     <li>
                         Dynamically reverse-engineering binaries with gdb, QEMU, IDA Debugger, x64dbg, and WinDBG
                     </li>
                     <li>
-                        Developing security tooling in Python and C++ using IDAPython, LLVM, Unicorn, Capstone, AFL++, LibAFL, Chrome DevTools API, and Win32 API
-                    </li>
-                    <li>
-                        Discovering security vulnerabilities and exploiting them in embedded, userspace, kernel, and web environments
+                        Developing security tooling in Python and C using glibc, IDAPython, LLVM, Unicorn, Capstone, AFL++, Chrome DevTools API, and Win32 API
                     </li>
                     <li>
                         Defeating software obfuscation, protection, and packing methods (including virtualization-based obfuscation)

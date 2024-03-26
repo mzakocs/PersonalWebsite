@@ -36,7 +36,7 @@ const Home = ({ posts }) => {
       <p>
         Computer Science Student at Arizona State University interested in Software Engineering and Computer Security
         <br></br><br></br>
-        Currently splitting my time between second-year undergrad classes and security research at the ASU SEFCOM Lab.
+        Splitting my time between third-year undergrad classes and security research at the ASU SEFCOM Lab
       </p>
     </Base>
   );
