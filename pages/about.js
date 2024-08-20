@@ -4,7 +4,6 @@ import { Document, Page } from "react-pdf";
 import { useMediaQuery } from "react-responsive";
 
 const About = () => {
-    // Screen-size media query for Spline animation
     const isDesktop = useMediaQuery({
         query: '(min-device-width: 768px)'
     });
@@ -43,10 +42,7 @@ const About = () => {
                         Fuzzing and testing software with AFL++, libAFL, libFuzzer, libprotobuf-mutator, QEMU, sanitizers, and more
                     </li>
                     <li>
-                        Statically reverse-engineering binaries with IDA Pro, Ghidra, Binary Ninja, and dnSpy
-                    </li>
-                    <li>
-                        Dynamically reverse-engineering binaries with gdb, QEMU, IDA Debugger, x64dbg, and WinDBG
+                        Reverse-engineering desktop applications and firmware with IDA Pro, Ghidra, gdb, QEMU, WinDBG, and dnSpy
                     </li>
                     <li>
                         Developing security tooling in Python and C using glibc, IDAPython, LLVM, Unicorn, Capstone, AFL++, Chrome DevTools API, and Win32 API
@@ -54,9 +50,9 @@ const About = () => {
                     <li>
                         Defeating software obfuscation, protection, and packing methods (including virtualization-based obfuscation)
                     </li>
-                    <li>
+                    {/* <li>
                         Analyzing network activity with Wireshark, Burp Suite, and nmap
-                    </li>
+                    </li> */}
                 </ul>
                 <h3>Software Engineering</h3>
                 <ul>
@@ -66,12 +62,12 @@ const About = () => {
                     <li>
                         Writing firmware for embedded systems using C, C++, FreeRTOS, Arduino, and MicroPython
                     </li>
-                    <li>
+                    {/* <li>
                         Developing JavaScript SPA's with React, Next.js, Express.js, Sencha ExtJS, and more
                     </li>
                     <li>
                         Designing reactive front-end UI's with HTML, CSS, Material-UI, jQuery, and JavaScript
-                    </li>
+                    </li> */}
                     <li>
                         Managing data with PostgreSQL, MongoDB, Looker, REST API's, Apollo and GraphQL
                     </li>
