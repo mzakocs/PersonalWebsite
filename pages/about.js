@@ -33,7 +33,7 @@ const About = () => {
                 <br /><br />
                 I hope you enjoy the website. Feel free to take a look at the other sections below (or maybe the blog posts <a href="/blog">here</a>). */}
                 <h1>Disciplines</h1>
-                <h3>Software Security</h3>
+                <h3>Computer Security</h3>
                 <ul>
                     <li>
                         Discovering security vulnerabilities and exploiting them in embedded, userspace, kernel, and web environments
@@ -49,6 +49,9 @@ const About = () => {
                     </li>
                     <li>
                         Defeating software obfuscation, protection, and packing methods (including virtualization-based obfuscation)
+                    </li>
+                    <li>
+                        Analyzing PCB's, dumping firmware, transceiving wired communication protocols (USB, SPI, I2C, etc.), and wireless communication procotols (anything FM, OFDM, or PSK)
                     </li>
                     {/* <li>
                         Analyzing network activity with Wireshark, Burp Suite, and nmap
@@ -72,7 +75,10 @@ const About = () => {
                         Managing data with PostgreSQL, MongoDB, Looker, REST API's, Apollo and GraphQL
                     </li>
                     <li>
-                        Maintaining projects with Git, GitHub, Docker, Kubernetes, Vercel, AWS EC2, Vagrant, and the Google Cloud Platform
+                        Organizing large Git repositories with Jira tickets, pull requests, code reviews, and cherry-picked release branches 
+                    </li>
+                    <li>
+                        Deploying projects with GitHub, Docker, Kubernetes, Vercel, AWS EC2, Vagrant, and the Google Cloud Platform
                     </li>
                     <li>
                         Quickly learning new technologies, frameworks, and libraries while adapting to the needs of a project
