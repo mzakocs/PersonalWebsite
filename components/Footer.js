@@ -45,7 +45,7 @@ const Footer = () => {
                 </g>
               </svg>
             </a>
-            <a target="_blank" rel="noopener" href="https://twitter.com/mitchzks" title="Twitter">
+            <a target="_blank" rel="noopener" href="https://twitter.com/mzakocs" title="Twitter">
               <svg className="social-svg" viewBox="0 0 64 64">
                 <g>
                   <circle cx="32" cy="32" r="31"></circle>
