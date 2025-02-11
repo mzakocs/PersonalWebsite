@@ -24,15 +24,7 @@ const About = () => {
                 I'm an undergraduate Computer Science student at Arizona State University interested in Computer Security and Software Engineering.
                 <br /><br />
                 I have over {getYearsSince(2017)} years of programming experience and a <a href="https://github.com/mzakocs">handful of personal projects</a>.
-                {/* <br /><br />
-                With computer languages, I have professional experience with C++, C, Python, x86, Java, JavaScript, HTML, and CSS.
-                <br /><br />
-                I'm also fairly familiar with C#, Julia, and Lua. I've worked directly with these languages in the past but only briefly.
-                <br /><br />
-                With real languages, I'm fluent in both English and Spanish. I'd love to learn Mandarin, German, Dutch, Russian, or Portuguese someday.
-                <br /><br />
-                I hope you enjoy the website. Feel free to take a look at the other sections below (or maybe the blog posts <a href="/blog">here</a>). */}
-                <h1>Disciplines</h1>
+                <h1>Skills</h1>
                 <h3>Computer Security</h3>
                 <ul>
                     <li>
@@ -53,9 +45,6 @@ const About = () => {
                     <li>
                         Analyzing PCB's, dumping firmware, transceiving wired communication protocols (USB, SPI, I2C, etc.), and wireless communication procotols (anything FM, OFDM, or PSK)
                     </li>
-                    {/* <li>
-                        Analyzing network activity with Wireshark, Burp Suite, and nmap
-                    </li> */}
                 </ul>
                 <h3>Software Engineering</h3>
                 <ul>
@@ -65,17 +54,11 @@ const About = () => {
                     <li>
                         Writing firmware for embedded systems using C, C++, FreeRTOS, Arduino, and MicroPython
                     </li>
-                    {/* <li>
-                        Developing JavaScript SPA's with React, Next.js, Express.js, Sencha ExtJS, and more
-                    </li>
-                    <li>
-                        Designing reactive front-end UI's with HTML, CSS, Material-UI, jQuery, and JavaScript
-                    </li> */}
                     <li>
                         Managing data with PostgreSQL, MongoDB, Looker, REST API's, Apollo and GraphQL
                     </li>
                     <li>
-                        Organizing large Git repositories with Jira tickets, pull requests, code reviews, and cherry-picked release branches 
+                        Organizing large Git repositories with Jira tickets, pull requests, code reviews, and complex merges
                     </li>
                     <li>
                         Deploying projects with GitHub, Docker, Kubernetes, Vercel, AWS EC2, Vagrant, and the Google Cloud Platform
@@ -84,8 +67,8 @@ const About = () => {
                         Quickly learning new technologies, frameworks, and libraries while adapting to the needs of a project
                     </li>
                 </ul>
-                {/* <h2>Projects</h2>
-                Check out my projects on GitHub by clicking the icon in the footer or the link <a href="https://github.com/mzakocs">here</a>. */}
+                <h1 id="projects">Projects</h1>
+                Check out my projects on GitHub by clicking the icon in the footer or the link <a href="https://github.com/mzakocs">here</a>.
                 <h1 id="resume">Resumé</h1>
                 Below, you can find the latest copy of my resumé. You can also <a href="/resume.pdf" download="Resume Mitchell Zakocs.pdf">download it</a>.
                 <br /> <br />
