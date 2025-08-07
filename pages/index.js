@@ -34,9 +34,9 @@ const Home = ({ posts }) => {
       `}</style>
       <SplineBanner />
       <p>
-        Computer Science Student at Arizona State University interested in Software Engineering and Computer Security
+        Security SWE at Apple and Arizona State University alum
         <br></br><br></br>
-        Splitting my time between fourth-year undergrad classes, security research at the ASU SEFCOM Lab, and firmware development at Sun Devil Satellite Lab
+        Working with the SPEAR org on exploitation mitigations and hardening in kernel/embedded environments
       </p>
     </Base>
   );

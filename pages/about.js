@@ -21,9 +21,9 @@ const About = () => {
             `}</style>
             <p>
                 <h1 id="summary">Summary</h1>
-                I'm an undergraduate Computer Science student at Arizona State University interested in Computer Security and Software Engineering.
+                I'm a Security Engineer/SWE that graduated from Arizona State University in 2025 with a BS in Computer Science. I mostly focus on vulnerability research, reverse engineering, fuzzing, and writing secure software.
                 <br /><br />
-                I have over {getYearsSince(2017)} years of programming experience and a <a href="https://github.com/mzakocs">handful of personal projects</a>.
+                I have over {getYearsSince(2017)} years of security and programming experience and a <a href="https://github.com/mzakocs">handful of personal projects</a>.
                 <h1>Skills</h1>
                 <h3>Computer Security</h3>
                 <ul>
@@ -43,13 +43,13 @@ const About = () => {
                         Defeating software obfuscation, protection, and packing methods (including virtualization-based obfuscation)
                     </li>
                     <li>
-                        Analyzing PCB's, dumping firmware, transceiving wired communication protocols (USB, SPI, I2C, etc.), and wireless communication procotols (anything FM, OFDM, or PSK)
+                        Analyzing PCBs, dumping firmware, transceiving wired communication protocols (USB, SPI, I2C, etc.), and wireless communication procotols (anything FM, OFDM, or PSK)
                     </li>
                 </ul>
                 <h3>Software Engineering</h3>
                 <ul>
                     <li>
-                        Building scalable back-end applications & tools in Python, C, C++, Java, and JavaScript
+                        Building scalable back-end applications & tools in Python, C, C++, Rust, Java, and JavaScript
                     </li>
                     <li>
                         Writing firmware for embedded systems using C, C++, FreeRTOS, Arduino, and MicroPython
